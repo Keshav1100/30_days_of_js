@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 10 | Event Handling</title>
+  </head>
+  <style>
+    .hidden {
+    }
+  </style>
+  <body>
+    <div class="activity">
+      <h1>Activity-1</h1>
+      <p id="change-content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quo a
+        magnam natus accusamus nihil sequi reiciendis quibusdam provident, eaque
+        corrupti omnis dolorem vero quis laudantium est ea! A, ex.
+      </p>
+      <button id="task-1">Change the content above</button>
+      <img
+        src="https://th.bing.com/th/id/OIP.AfKMLf4rKX7EqOSAVpujIQHaEK?w=182&h=102&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        alt=""
+        id="task-2"
+        style="
+          border: 2px solid red;
+          pointer-events: visible;
+          width: 8rem;
+          height: 8rem;
+        "
+      />
+    </div>
+    <div class="activity">
+      <h1>Activity-2</h1>
+      <p id="task-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+        accusamus iure omnis id iste aliquid sed recusandae magnam, vitae alias
+        laborum natus commodi incidunt consequuntur ipsam officia aut ut quo.
+      </p>
+      <p>Hover over the above content to see the change.</p>
+    </div>
+    <div class="activity">
+      <h1>Activity-3</h1>
+      <input
+        type="text"
+        placeholder="Enter the key and see the console..."
+        id="task-5"
+      />
+      <p id="task-6-para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+        sit quidem unde accusamus quae nostrum placeat laboriosam hic. Fuga
+        dolorum expedita nihil unde dolorem ut iusto vel veniam praesentium
+        perferendis?
+      </p>
+      <input type="text" id="task-6" placeholder="Value of above paragraph" />
+    </div>
+    <div class="activity">
+      <h1>Activity-4</h1>
+      <form id="task-7-form">
+        <label for="name">Enter the name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter the name" />
+        <label for="age">Enter the age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter the age" />
+        <button type="submit" id="submit-form">Submit</button>
+      </form>
+      <label for="gender">Gender: </label>
+      <select name="gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <p id="gender-value"></p>
+    </div>
+    <div class="activity">
+      <h1>Activity-5</h1>
+      <ul>
+        <li class="task-9">Item - 1</li>
+        <li class="task-9">Item - 2</li>
+        <li class="task-9">Item - 3</li>
+        <li class="task-9">Item - 4</li>
+        <li class="task-9">Item - 5</li>
+      </ul>
+      <div
+        id="parent"
+        style="padding: 2em; display: flex; flex-direction: column; gap: 2em"
+      >
+        <div class="child">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          at suscipit perspiciatis ea illo sit harum corporis ullam nisi
+          quibusdam maiores, placeat consectetur, fuga veniam!
+        </div>
+        <div class="child">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          at suscipit perspiciatis ea illo sit harum corporis ullam nisi
+          quibusdam maiores, placeat consectetur, fuga veniam!
+        </div>
+        <div class="child">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          at suscipit perspiciatis ea illo sit harum corporis ullam nisi
+          quibusdam maiores, placeat consectetur, fuga veniam!
+        </div>
+        <div class="child">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          at suscipit perspiciatis ea illo sit harum corporis ullam nisi
+          quibusdam maiores, placeat consectetur, fuga veniam!
+        </div>
+        <div class="child">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          at suscipit perspiciatis ea illo sit harum corporis ullam nisi
+          quibusdam maiores, placeat consectetur, fuga veniam!
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
